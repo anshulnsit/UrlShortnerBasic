@@ -36,14 +36,7 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web"
     compile 'org.springframework.boot:spring-boot-starter-data-jpa'
     compile 'mysql:mysql-connector-java'
-
     compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
-
-    compile 'javax.servlet.jsp:jsp-api:2.2.1-b03'
-    compile 'javax.servlet:jstl'
-    compile 'org.apache.tomcat.embed:tomcat-embed-jasper'
-    compile 'org.eclipse.jdt.core.compiler:ecj'
-
     testCompile 'org.springframework.boot:spring-boot-starter-test'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
